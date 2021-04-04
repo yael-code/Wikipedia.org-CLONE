@@ -10,3 +10,15 @@ html
     font-size: 62.5%;
 }
 
+header 
+{
+    margin-top: 40px;
+    text-align: center;
+}
+
+header section img 
+{
+    width: 270px;
+    height: 90px;
+    margin: 0 auto;
+}
