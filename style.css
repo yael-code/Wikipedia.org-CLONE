@@ -24,6 +24,12 @@ header section img
     margin: 0 auto;
 }
 
+main #logo img
+{
+    width: 200px;
+    height: 183px;
+}
+
 main
 {
     width: 546px;
