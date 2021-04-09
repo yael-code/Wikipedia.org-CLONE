@@ -205,3 +205,54 @@ main span
 }
 
 /* SEARCH BOX FINISHED (MAIN)*/
+
+/* STARTS LANGUAGE SELECTOR BOX (MAIN) */
+
+.language-selector-box
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+/* 
+
+.language-selector-box #line-1-language
+{
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #c7ccd1;
+    margin: 18px;
+}
+*/
+
+
+.language-selector-box #image-button-language
+{
+    position: relative;
+    background-image: url('./box-language.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 300px;
+    height: 36px;
+    top: 520px;
+}
+/* 
+
+.language-selector-box #line-2-language
+{
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #c7ccd1;
+    margin: 18px;
+}
+
+ */
