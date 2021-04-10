@@ -256,3 +256,139 @@ main span
     bottom: -520px;
     right: -150px;
 }
+
+/* FINISHED LANGUAGE BOX */
+
+/* START FOOTER */
+
+footer
+{
+    display: flex;
+    position: relative;
+    bottom: -175px;
+}
+
+footer a 
+{
+    color: rgb(51, 102, 204);
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+footer .elements-initial-footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer div section
+{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    padding: 1.6px 12.8px 12.8px;
+}
+
+footer #line-footer
+{
+    clear: both;
+    height: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin: 2.6px 13px;
+    margin: .26rem 1.3rem;
+    position: absolute;
+    width: 98.5vw;
+    top: -30px;
+}
+
+.section-1
+{
+    margin: 15px 40px;
+}
+
+#element-1 span
+{
+    color: #54595d;
+    font-size: 1.3rem;
+    padding: 0 15px;
+    line-height: 21px;
+}
+
+#element-1
+{
+    position: absolute;
+    width: 350px;
+    height: 58.5px;
+    display: flex;
+}
+
+#element-2
+{
+    position: absolute;
+    display: flex;
+    width: 350px;
+    height: 177.5px;
+    bottom: -252px;
+    background-color: #f8f9fa;
+}
+
+#element-2 a
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+#element-2 span
+{
+    position: absolute;
+    width: 280px;
+    height: 170px;
+    white-space: pre-line;
+    left: 50px;
+    padding-top: 5px;
+    font-size: 1.3rem;
+    line-height: 19.5px;
+    color: rgb(84, 89, 93);
+}
+
+#app-store li a
+{
+    position: absolute;
+    background-image: url('./images/app-store-badge.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 120px;
+    height: 40px;
+
+    left: 190px;
+    bottom: 22px;
+}
+/* 
+
+#play-store li a 
+{
+    position: absolute;
+    background-image: url('./images/google-play-badge.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 120px;
+    height: 40px;
+
+    left: 175px;
+    bottom: 22px;
+}
+
+ */
+
+ #play-store li a 
+{
+    position: absolute;
+    left: 42px;
+    bottom: 10px;
+}
