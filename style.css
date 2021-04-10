@@ -332,6 +332,7 @@ footer #line-footer
     height: 177.5px;
     bottom: -252px;
     background-color: #f8f9fa;
+    top: 110px;
 }
 
 #element-2 a
@@ -391,4 +392,80 @@ footer #line-footer
     position: absolute;
     left: 42px;
     bottom: 10px;
+}
+
+/* REPEAT ITEMS */
+
+#element-3 span
+{
+    font-size: 13px;
+    color: rgb(84, 89, 93);
+
+    position: relative;
+    right: 67px;
+    bottom: 7px;
+}
+
+#text-commons
+{
+    font-size: 14px;
+    position: relative;
+    bottom: 28px;
+}
+
+#element-4 span
+{
+    font-size: 13px;
+    color: rgb(84, 89, 93);
+
+    position: relative;
+    right: 67px;
+    bottom: 7px;
+}
+
+#text-wikibooks
+{
+    font-size: 14px;
+    position: relative;
+    bottom: 28px;
+}
+
+#element-5 span
+{
+    font-size: 13px;
+    color: rgb(84, 89, 93);
+
+    position: relative;
+    right: 71px;
+    bottom: 7px;
+}
+
+#text-wikiversity
+{
+    font-size: 14px;
+    position: relative;
+    bottom: 28px;
+}
+
+#element-6 span
+{
+    font-size: 13px;
+    color: rgb(84, 89, 93);
+
+    position: relative;
+    right: 71px;
+    bottom: 7px;
+}
+
+#text-wikisource
+{
+    font-size: 14px;
+    position: relative;
+    bottom: 28px;
+}
+
+.section-2 div
+{
+    padding: 20px;
+    padding-left: 54px;
 }
