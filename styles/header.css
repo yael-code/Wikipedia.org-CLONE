@@ -1,0 +1,23 @@
+
+/* STARTS HEADER */
+
+header
+{
+    margin-top: 40px;
+    text-align: center;
+}
+
+header section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header section img
+{
+    width: 176px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+/* END HEADER */

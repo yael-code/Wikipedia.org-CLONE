@@ -1,0 +1,14 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+prepros.cfg
+prepros-6.config
+prepros.config
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace

@@ -1,265 +1,7 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html
-{
-    font-size: 62.5%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-/* STARTS HEADER */
-
-header
-{
-    margin-top: 40px;
-    text-align: center;
-}
-
-header section
-{
-    display: flex;
-    flex-direction: column;
-}
-
-header section img
-{
-    width: 176px;
-    height: 32px;
-    margin: 0 auto;
-}
-
-/* END HEADER */
-
-/* STARTS MAIN */
-
-main #logo img
-{
-    width: 200px;
-    height: 183px;
-}
-
-main
-{
-    width: 546px;
-    height: 325px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-main
-{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 17px;
-}
-
-main section ul div
-{
-    margin-bottom: 20px;
-}
-
-main ul li
-{
-    list-style: none;
-}
-
-main ul li a
-{
-    text-decoration: none;
-    cursor: pointer;
-    color: #3366cc;
-    font-size: 1.6rem;
-    line-height: 24px;
-    text-align: center;
-    font-weight: 700;
-}
-
-main ul li a:hover
-{
-    text-decoration: underline;
-}
-
-/* main ul li a:focus
-{
-    outline: 1px solid #36c;
-}
- */
-
-main .languages-left li
-{
-    text-decoration: none;
-}
-
-.languages-left, .languages-right
-{
-    line-height: 1.5rem;
-}
-
-.languages-left
-{
-    margin-right: 18px !important;
-}
-
-.languages-right
-{
-    margin-right: -18px !important;
-}
-
-.l-lang-div, .r-lang-div
-{
-    position: relative;
-}
-
-main span
-{
-    font-size: 1.3rem;
-    line-height: 20.8px;
-    text-align: center;
-    color: rgb(84, 89, 93);
-}
-
-.languages-left ul div, .languages-right ul div
-{
-    cursor: pointer;
-}
-
-.a-link-below
-{
-    text-decoration: none !important;
-    color: rgb(84, 89, 93) !important;
-}
-
-/* STARTS SEARCH BOX (MAIN)*/
-
-.search-box
-{
-    justify-content: center;
-    display: flex;
-    margin-right: 70px;
-}
-
-.search-box div input
-{
-    position: absolute;
-    display: flex;
-    width: 395px;
-    border: 1.4px solid #a1a9b1;
-    height: 44px;
-    outline: none;
-    border-radius: 1px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-
-    padding: 12px;
-    padding-right: 12px;
-    padding-right: 60px;
-    font-size: 1.6rem;
-}
-
-.search-box div input:hover
-{
-    border-color: #72777c;
-}
-
-.search-box div input:focus
-{
-    border-color: #36c;
-    box-shadow: inset 0 0 0 1px;
-    outline: 0;
-}
-
-.select-language
-{
-    position: absolute;
-    background-image: url('./black-24dp/2x/outline_language_black_24dp.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 25px;
-    height: 24px;
-}
-
-.button-search
-{
-    position: absolute;
-    background-image: url('./search-reloaded.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 60px;
-    height: 44px;
-    margin: 10px;
-    margin-left: 388px;
-    cursor: pointer;
-}
-
-.button-search:focus
-{
-    outline: #3366cc;
-    border-color: #3366cc;
-}
-
-/* SEARCH BOX FINISHED (MAIN)*/
-
-/* STARTS LANGUAGE SELECTOR BOX (MAIN) */
-
-.language-selector-box
-{
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    justify-content: center;
-    z-index: -1;
-}
-
-
-.language-selector-box #line-1-language
-{
-    position: relative;
-    width: 60px;
-    height: 1px;
-    background-color: #c7ccd1;
-    margin: 18px;
-    bottom: -520px;
-    left: -150px;
-}
-
-
-.language-selector-box #image-button-language
-{
-    position: absolute;
-    background-image: url('./box-language.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 300px;
-    top: 520px;
-    height: 36px;
-}
-
-.language-selector-box #line-2-language
-{
-    position: relative;
-    width: 60px;
-    height: 1px;
-    background-color: #c7ccd1;
-    margin: 18px;
-    bottom: -520px;
-    right: -150px;
-}
-
-/* FINISHED LANGUAGE BOX */
 
 /* START FOOTER */
+
+/* FOOTER 1 */
 
 footer
 {
@@ -360,7 +102,7 @@ footer #line-footer
 #app-store li a
 {
     position: absolute;
-    background-image: url('./images/app-store-badge.svg');
+    background-image: url('../images/app-store-badge.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -727,3 +469,16 @@ footer #line-footer
     position: relative;
     top: 141px
 }
+
+/* FOOTER 1 FINISHED */
+
+/* FOOTER 2 START */
+
+.text-footer
+{
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 30px 0;
+}
+
+/* FOOTER 2 FINISHED */
